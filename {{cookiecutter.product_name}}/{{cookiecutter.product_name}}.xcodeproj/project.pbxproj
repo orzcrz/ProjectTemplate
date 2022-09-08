@@ -143,18 +143,18 @@
 			isa = PBXGroup;
 			children = (
 				D239FB4126B5534A00FD1DA0 /* Assets */,
-				D27A8A28252052BE006A6125 /* Source */,
+				D27A8A28252052BE006A6125 /* Sources */,
 				D23DCF1D2595CCAC004EB5E3 /* SupportingFiles */,
 			);
 			path = "{{cookiecutter.product_name}}";
 			sourceTree = "<group>";
 		};
-		D27A8A28252052BE006A6125 /* Source */ = {
+		D27A8A28252052BE006A6125 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				D27A8A982520AEAC006A6125 /* {{cookiecutter.product_name}}.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		D2A3333927D0A20300705185 /* SupportingFiles */ = {
@@ -610,7 +610,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
-				INFOPLIST_PATH = "$(FULL_PRODUCT_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,7 +649,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
-				INFOPLIST_PATH = "$(FULL_PRODUCT_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

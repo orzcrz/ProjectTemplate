@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.ios.deployment_target = "13.0"
-  s.ios.source_files = '{{cookiecutter.product_name}}/Source/**/*'
+  s.ios.source_files = '{{cookiecutter.product_name}}/Sources/**/*'
 
   s.ios.resource_bundles = {
       s.name => [
