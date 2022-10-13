@@ -644,7 +644,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
-				VERSIONING_SYSTEM = "apple-generic";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -682,7 +682,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
-				VERSIONING_SYSTEM = "apple-generic";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
