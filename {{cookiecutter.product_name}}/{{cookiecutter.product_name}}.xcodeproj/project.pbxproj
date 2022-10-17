@@ -88,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D200AD2328FD01F400B43F52 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D23FF0E425AD9C5600D755D9 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		D239FB4126B5534A00FD1DA0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				D23FF0E225AD9C5600D755D9 /* {{cookiecutter.product_name}}Tests.m */,
-				D23FF0E425AD9C5600D755D9 /* Info.plist */,
+				D200AD2328FD01F400B43F52 /* SupportingFiles */,
 			);
 			path = "{{cookiecutter.product_name}}Tests";
 			sourceTree = "<group>";
@@ -446,7 +454,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97LF6BB4ZK;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,7 +478,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97LF6BB4ZK;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
