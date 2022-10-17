@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D200AD2528FD02E800B43F52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D200AD2428FD02E800B43F52 /* Info.plist */; };
 		D211C74B26AD2C6800432511 /* {{cookiecutter.product_name}}.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D211C74A26AD2C6800432511 /* {{cookiecutter.product_name}}.xcassets */; };
 		D23FF0C925AD9B5200D755D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23FF0C825AD9B5200D755D9 /* AppDelegate.swift */; };
 		D23FF0CB25AD9B5200D755D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23FF0CA25AD9B5200D755D9 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D200AD2428FD02E800B43F52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D211C74A26AD2C6800432511 /* {{cookiecutter.product_name}}.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "{{cookiecutter.product_name}}.xcassets"; sourceTree = "<group>"; };
 		D23FF0C625AD9B5200D755D9 /* {{cookiecutter.product_name}}Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{cookiecutter.product_name}}Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23FF0C825AD9B5200D755D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 		D23FF0D625AD9B5500D755D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23FF0E025AD9C5600D755D9 /* {{cookiecutter.product_name}}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{cookiecutter.product_name}}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23FF0E225AD9C5600D755D9 /* {{cookiecutter.product_name}}Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "{{cookiecutter.product_name}}Tests.swift"; sourceTree = "<group>"; };
-		D23FF0E425AD9C5600D755D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27A8A1D25203F1A006A6125 /* {{cookiecutter.product_name}}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "{{cookiecutter.product_name}}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27A8A982520AEAC006A6125 /* {{cookiecutter.product_name}}.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "{{cookiecutter.product_name}}.swift"; sourceTree = "<group>"; };
 		D297DB782568F6390096BD54 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D200AD2328FD01F400B43F52 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D200AD2428FD02E800B43F52 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		D239FB4126B5534A00FD1DA0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				D23FF0E225AD9C5600D755D9 /* {{cookiecutter.product_name}}Tests.swift */,
-				D23FF0E425AD9C5600D755D9 /* Info.plist */,
+				D200AD2328FD01F400B43F52 /* SupportingFiles */,
 			);
 			path = "{{cookiecutter.product_name}}Tests";
 			sourceTree = "<group>";
@@ -293,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D200AD2528FD02E800B43F52 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +440,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97LF6BB4ZK;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +464,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97LF6BB4ZK;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
