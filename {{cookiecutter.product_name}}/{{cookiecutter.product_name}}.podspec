@@ -9,13 +9,14 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/{{cookiecutter.product_name}}.git', :tag => s.version.to_s }
 
   s.static_framework = true
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = "13.0"
-  
+
   s.subspec 'Sources' do |ss|
     ss.ios.source_files = '{{cookiecutter.product_name}}/Sources/**/*'
   end
-  
+
   s.subspec 'Assets' do |ss|
     ss.ios.resource_bundles = {
       s.name => [
@@ -24,5 +25,5 @@ Pod::Spec.new do |s|
       ]
     }
   end
-  
+
 end
