@@ -11,6 +11,7 @@ import UIKit
 _ = UIApplicationMain(CommandLine.argc,
                       CommandLine.unsafeArgv,
                       "UIApplication",
+#error("set your appdelegate class name")
                       "XXXXPortal.AppDelegate")
 
 /**
