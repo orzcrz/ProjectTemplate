@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F73B5F52C33AADE00768585 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		6F73B5F62C33AADE00768585 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		D200AD2428FD02E800B43F52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D211C74A26AD2C6800432511 /* {{cookiecutter.product_name}}.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "{{cookiecutter.product_name}}.xcassets"; sourceTree = "<group>"; };
 		D23FF0C625AD9B5200D755D9 /* {{cookiecutter.product_name}}Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{cookiecutter.product_name}}Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,8 @@
 			children = (
 				D297DB782568F6390096BD54 /* Info.plist */,
 				D2FCEA6A25F9F779005EAA15 /* {{cookiecutter.product_name}}.podspec */,
+				6F73B5F52C33AADE00768585 /* README.md */,
+				6F73B5F62C33AADE00768585 /* LICENSE */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -152,18 +156,18 @@
 			isa = PBXGroup;
 			children = (
 				D239FB4126B5534A00FD1DA0 /* Assets */,
-				D27A8A28252052BE006A6125 /* Source */,
+				D27A8A28252052BE006A6125 /* Sources */,
 				D23DCF1D2595CCAC004EB5E3 /* SupportingFiles */,
 			);
 			path = "{{cookiecutter.product_name}}";
 			sourceTree = "<group>";
 		};
-		D27A8A28252052BE006A6125 /* Source */ = {
+		D27A8A28252052BE006A6125 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				D27A8A982520AEAC006A6125 /* {{cookiecutter.product_name}}.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		D2A3333927D0A20300705185 /* SupportingFiles */ = {
