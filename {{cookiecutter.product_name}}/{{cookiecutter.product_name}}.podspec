@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "13.0"
 
   s.subspec 'Sources' do |ss|
-    ss.ios.source_files = '{{cookiecutter.product_name}}/Source/**/*'
+    ss.ios.source_files = '{{cookiecutter.product_name}}/Sources/**/*'
   end
 
   s.subspec 'Assets' do |ss|
