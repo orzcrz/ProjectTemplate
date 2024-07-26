@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = '{{cookiecutter.product_name}}'
   s.homepage     = 'https://github.com/{{cookiecutter.organization_name}}/{{cookiecutter.product_name}}.git'
   s.license      = { :type => 'MIT', :text => 'LICENSE' }
-  s.author       = { 'crzorz' => 'crzorz@outlook.com' }
+  s.author       = { '{{cookiecutter.author_name}}' => '{{cookiecutter.email}}' }
   s.source       = { :git => 'https://github.com/{{cookiecutter.organization_name}}/{{cookiecutter.product_name}}.git', :tag => s.version.to_s }
 
   s.static_framework = true
