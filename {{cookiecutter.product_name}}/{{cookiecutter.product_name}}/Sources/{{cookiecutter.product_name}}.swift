@@ -6,3 +6,4 @@
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
 
+let MODULE_NAME = "{{cookiecutter.product_name}}"
