@@ -2,7 +2,7 @@
 //  main.swift
 //  {{cookiecutter.product_name}}
 //
-//  Created by crzorz on {% now 'local', '%Y/%m/%d' %}.
+//  Created by {{cookiecutter.author_name}} on {% now 'local', '%Y/%m/%d' %}.
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 _ = UIApplicationMain(CommandLine.argc,
                       CommandLine.unsafeArgv,
                       "UIApplication",
-#error("set your appdelegate class name")
+#error("replace your AppDelegate class name for XXXXPortal.AppDelegate")
                       "XXXXPortal.AppDelegate")
 
 /**

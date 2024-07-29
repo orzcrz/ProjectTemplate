@@ -111,6 +111,7 @@
 		D2BD672B26088090006BD02D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "{{cookiecutter.organization_name}}";
