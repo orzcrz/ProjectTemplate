@@ -1,13 +1,14 @@
 //
-//  SceneDelegate.h
+//  {{cookiecutter.class_prefix}}SceneDelegate.h
 //  {{cookiecutter.product_name}}Demo
 //
-//  Created by crzorz on {% now 'local', '%Y/%m/%d' %}.
+//  Created by {{cookiecutter.author_name}} on {% now 'local', '%Y/%m/%d' %}.
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
+
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+@interface {{cookiecutter.class_prefix}}SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
 @property (strong, nonatomic) UIWindow * window;
 

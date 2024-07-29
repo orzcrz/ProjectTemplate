@@ -2,7 +2,7 @@
 //  {{cookiecutter.product_name}}.h
 //  {{cookiecutter.product_name}}
 //
-//  Created by crzorz on {% now 'local', '%Y/%m/%d' %}.
+//  Created by {{cookiecutter.author_name}} on {% now 'local', '%Y/%m/%d' %}.
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
 

@@ -1,18 +1,18 @@
 //
-//  SceneDelegate.m
+//  {{cookiecutter.class_prefix}}SceneDelegate.m
 //  {{cookiecutter.product_name}}Demo
 //
-//  Created by crzorz on {% now 'local', '%Y/%m/%d' %}.
+//  Created by {{cookiecutter.author_name}} on {% now 'local', '%Y/%m/%d' %}.
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
 
-#import "SceneDelegate.h"
+#import "{{cookiecutter.class_prefix}}SceneDelegate.h"
 
-@interface SceneDelegate ()
+@interface {{cookiecutter.class_prefix}}SceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
+@implementation {{cookiecutter.class_prefix}}SceneDelegate
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {

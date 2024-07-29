@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  {{cookiecutter.class_prefix}}AppDelegate.m
 //  {{cookiecutter.product_name}}Demo
 //
-//  Created by crzorz on {% now 'local', '%Y/%m/%d' %}.
+//  Created by {{cookiecutter.author_name}} on {% now 'local', '%Y/%m/%d' %}.
 //  Copyright © {% now 'local', '%Y' %} {{cookiecutter.organization_name}}. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "{{cookiecutter.class_prefix}}AppDelegate.h"
 
-@interface AppDelegate ()
+@interface {{cookiecutter.class_prefix}}AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation {{cookiecutter.class_prefix}}AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
