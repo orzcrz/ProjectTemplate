@@ -1,0 +1,22 @@
+source 'https://cdn.cocoapods.org'
+
+platform :ios, '13.0'
+
+use_frameworks!
+
+target '{{cookiecutter.product_name}}' do
+
+
+end
+
+target '{{cookiecutter.product_name}}Demo' do
+
+  pod '{{cookiecutter.product_name}}', :path => '.'
+
+end
+
+target '{{cookiecutter.product_name}}Tests' do
+
+  pod '{{cookiecutter.product_name}}', :path => '.'
+
+end

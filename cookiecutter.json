@@ -1,5 +1,8 @@
 {
   "product_name": "ProjectTemplate",
   "organization_name": "BaldStudio",
-  "organization_identifier": "baldstudio"
+  "organization_identifier": "com.baldstudio",
+  "class_prefix": "Bs",
+  "author_name": "crzorz",
+  "email": "crzorz@outlook.com"
 }
