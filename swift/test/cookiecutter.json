@@ -1,0 +1,6 @@
+{
+  "product_name": "Test{% now 'utc', '%m%d' %}",
+  "organization_name": "BaldStudio",
+  "organization_identifier": "com.baldstudio",
+  "author_name": "crzorz"
+}
