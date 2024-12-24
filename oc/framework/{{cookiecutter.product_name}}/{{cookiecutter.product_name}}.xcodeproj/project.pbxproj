@@ -61,7 +61,7 @@
 		D27A8A982520AEAC006A6125 /* {{cookiecutter.product_name}}.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "{{cookiecutter.product_name}}.h"; sourceTree = "<group>"; };
 		D297DB782568F6390096BD54 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F3DFA0269FD3D8006DB903 /* {{cookiecutter.product_name}}Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "{{cookiecutter.product_name}}Demo.entitlements"; sourceTree = "<group>"; };
-		D2FCEA6A25F9F779005EAA15 /* {{cookiecutter.product_name}}.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "{{cookiecutter.product_name}}.podspec"; sourceTree = SOURCE_ROOT; };
+		D2FCEA6A25F9F779005EAA15 /* {{cookiecutter.product_name}}.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = "{{cookiecutter.product_name}}.podspec"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
